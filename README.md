@@ -1,5 +1,9 @@
 # Regression_analysis
 
+## Outline
+* [Structure of the project](#structure-of-the-project)
+    * part 
+
 In this task the goal is to do a regression analysis for the Boston housing dataset.
 First step in any analysis is to understand the problem and familiarize ourselves with the 
 dataset.
@@ -14,7 +18,7 @@ Let  us familiarize ourselves with the structure of teh dataset. Once you load t
 
 Therefore, as you can see there is already a key in this dictionary that decsribes the dataset and its features and 
 gives us a quick introduction on the dataset. A function is implemented in the project that writes this information into a `txt` file and saves all the information related to boston housing proces into a file named
-`boston_housing_description.txt`
+[`boston_housing_description.txt`](report_creator/boston_housing_decsription.txt)
 
 
 Boston house prices dataset
@@ -22,11 +26,11 @@ Boston house prices dataset
 
 **Data Set Characteristics:**  
 
-    :Number of Instances: 506 
+    Number of Instances: 506 
 
-    :Number of Attributes: 13 numeric/categorical predictive. Median Value (attribute 14) is usually the target.
+    Number of Attributes: 13 numeric/categorical predictive. Median Value (attribute 14) is usually the target.
 
-    :Attribute Information (in order):
+    Attribute Information (in order):
         - CRIM     per capita crime rate by town
         - ZN       proportion of residential land zoned for lots over 25,000 sq.ft.
         - INDUS    proportion of non-retail business acres per town
@@ -42,9 +46,9 @@ Boston house prices dataset
         - LSTAT    % lower status of the population
         - MEDV     Median value of owner-occupied homes in $1000's
 
-    :Missing Attribute Values: None
+    Missing Attribute Values: None
 
-    :Creator: Harrison, D. and Rubinfeld, D.L.
+    Creator: Harrison, D. and Rubinfeld, D.L.
 
 This is a copy of UCI ML housing dataset.
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
@@ -65,7 +69,6 @@ References
 
    - Belsley, Kuh & Welsch, 'Regression diagnostics: Identifying Influential Data and Sources of Collinearity', Wiley, 1980. 244-261.
    - Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning. In Proceedings on the Tenth International Conference of Machine Learning, 236-243, University of Massachusetts, Amherst. Morgan Kaufmann.
-  
-
+## Structure of the project 
 
 
